@@ -1,0 +1,89 @@
+/* root */
+
+
+/* header */
+
+.hat {
+    width: 1440px;
+    height: 106px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.nav_hat {
+    width: 1239px;
+    height: 42px;
+    display: flex;
+}
+
+.nav_hat>a {
+    text-align: left;
+}
+
+.ul_info_hat {
+    display: flex;
+    justify-content: center;
+    width: 525px;
+    height: 21px;
+}
+
+.ul_link_hat {
+    display: flex;
+    text-align: right;
+}
+
+.link {
+    text-decoration: none;
+    color: #011C44;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.link:hover {
+    color: #2B7FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* main */
+
+.p_face {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: Play;
+    font-size: 140px;
+    font-weight: 700;
+    color: #2B7FFF;
+    width: 529px;
+}
+
+.button {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FAF4EA;
+    background-color: #2B7FFF;
+    width: 219px;
+    height: 53px;
+    border: #2B7FFF;
+    border-radius: 32px;
+}
+
+.p_sface {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* footer */
