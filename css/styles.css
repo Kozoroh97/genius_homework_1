@@ -1,49 +1,11 @@
 /* root */
 
-
-/* header */
-
-.hat {
-    width: 1440px;
-    height: 106px;
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.nav_hat {
-    width: 1239px;
-    height: 42px;
-    display: flex;
-}
-
-.nav_hat>a {
-    text-align: left;
-}
-
-.ul_info_hat {
-    display: flex;
-    justify-content: center;
-    width: 525px;
-    height: 21px;
-}
-
-.ul_link_hat {
-    display: flex;
-    text-align: right;
-}
-
-.link {
-    text-decoration: none;
-    color: #011C44;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.link:hover {
-    color: #2B7FFF;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 700;
+:root {
+    --conteiner-1: #011C44;
+    --conteiner-2: #2B7FFF;
+    --conteiner-3: #FFFFFF;
+    --conteiner-4: #4A4A4A;
+    --conteiner-5: #747272;
 }
 
 ul {
@@ -51,39 +13,115 @@ ul {
 }
 
 
-/* main */
+/* header */
 
-.p_face {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
+.link1 {
+    color: var(--conteiner-1);
 }
 
-h1 {
-    font-family: Play;
-    font-size: 140px;
-    font-weight: 700;
-    color: #2B7FFF;
-    width: 529px;
+.link1:hover {
+    color: var(--conteiner-2);
+}
+
+
+/* main */
+
+
+/*section 1 */
+
+.main-section-p1 {
+    color: var(--conteiner-1);
+}
+
+.main-section1>h1 {
+    color: var(--conteiner-2);
 }
 
 .button {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
-    color: #FAF4EA;
-    background-color: #2B7FFF;
-    width: 219px;
-    height: 53px;
-    border: #2B7FFF;
+    color: var(--conteiner-3);
+    background-color: var(--conteiner-2);
     border-radius: 32px;
+    border-color: var(--conteiner-2);
 }
 
-.p_sface {
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
+.button:hover {
+    border: 2px solid var(--conteiner-2);
+    background-color: transparent;
+    color: var(--conteiner-1);
+}
+
+.main-section-p2 {
+    color: var(--conteiner-4);
+}
+
+
+/* section2 */
+
+.main-section2-a>h2 {
+    color: var(--conteiner-1);
+}
+
+.main-section2-a>h2>span {
+    color: var(--conteiner-2);
+}
+
+.main-section2-a>p {
+    color: var(--conteiner-1);
+}
+
+
+/* section3 */
+
+.main-section-p3 {
+    color: var(--conteiner-1);
+}
+
+.section3-h2 {
+    color: var(--conteiner-2);
+}
+
+
+/* section4 */
+
+.main-section4 {
+    color: var(--conteiner-1);
+}
+
+.section4-h2 {
+    color: var(--conteiner-2);
+}
+
+
+/* section5 */
+
+.main-section5 {
+    color: var(--conteiner-1);
+}
+
+.section5-h2 {
+    color: var(--conteiner-2);
 }
 
 
 /* footer */
+
+.footer {
+    border: 2px solid var(--conteiner-1);
+    background-color: var(--conteiner-1);
+}
+
+.link2 {
+    color: var(--conteiner-3);
+}
+
+.link2:hover {
+    color: var(--conteiner-2);
+}
+
+.politic {
+    color: var(--conteiner-3);
+}
+
+.footer>p {
+    color: var(--conteiner-5);
+}
