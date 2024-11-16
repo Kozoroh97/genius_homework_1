@@ -1,3 +1,30 @@
+/* fonts */
+
+
+/* roboto-regular - cyrillic */
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-cyrillic-regular.eot');
+    src: url('../fonts/roboto-v32-cyrillic-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto-v32-cyrillic-regular.woff2') format('woff2'), url('../fonts/roboto-v32-cyrillic-regular.woff') format('woff'), url('../fonts/roboto-v32-cyrillic-regular.ttf') format('truetype'), url('../fonts/roboto-v32-cyrillic-regular.svg#Roboto') format('svg');
+}
+
+
+/* roboto-700 - cyrillic */
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-cyrillic-700.eot');
+    src: url('../fonts/roboto-v32-cyrillic-700.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto-v32-cyrillic-700.woff2') format('woff2'), url('../fonts/roboto-v32-cyrillic-700.woff') format('woff'), url('../fonts/roboto-v32-cyrillic-700.ttf') format('truetype'), url('../fonts/roboto-v32-cyrillic-700.svg#Roboto') format('svg');
+}
+
+
 /* root */
 
 :root {
@@ -12,15 +39,23 @@ ul {
     list-style-type: none;
 }
 
+body {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
 
 /* header */
 
 .link1 {
     color: var(--conteiner-1);
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .link1:hover {
     color: var(--conteiner-2);
+    font-weight: 700;
 }
 
 
@@ -31,10 +66,20 @@ ul {
 
 .main-section-p1 {
     color: var(--conteiner-1);
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 .main-section1>h1 {
     color: var(--conteiner-2);
+    font-family: Play;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 529px;
+    height: 228px;
 }
 
 .button {
@@ -42,6 +87,10 @@ ul {
     background-color: var(--conteiner-2);
     border-radius: 32px;
     border-color: var(--conteiner-2);
+    font-family: Robobo;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 .button:hover {
@@ -52,6 +101,8 @@ ul {
 
 .main-section-p2 {
     color: var(--conteiner-4);
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 
@@ -59,6 +110,12 @@ ul {
 
 .main-section2-a>h2 {
     color: var(--conteiner-1);
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+    width: 529px;
+    height: 148px;
 }
 
 .main-section2-a>h2>span {
@@ -67,13 +124,32 @@ ul {
 
 .main-section2-a>p {
     color: var(--conteiner-1);
+    font-size: 22px;
+    line-height: 1.7;
+    width: 709px;
+}
+
+.main-section2-a span {
+    font-weight: 600;
 }
 
 
 /* section3 */
 
-.main-section-p3 {
+.main-section3-p {
     color: var(--conteiner-1);
+    font-size: 18px;
+    line-height: 1.3;
+    width: 252px;
+}
+
+.main-section3 h2 {
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+    width: 432px;
+    text-align: center;
 }
 
 .section3-h2 {
@@ -87,8 +163,21 @@ ul {
     color: var(--conteiner-1);
 }
 
+.main-section4 h2 {
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+    width: 510px;
+    text-align: center;
+}
+
 .section4-h2 {
     color: var(--conteiner-2);
+}
+
+.main-section4 ul {
+    display: flex;
 }
 
 
@@ -98,6 +187,15 @@ ul {
     color: var(--conteiner-1);
 }
 
+.main-section5 h2 {
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+    width: 432px;
+    text-align: center;
+}
+
 .section5-h2 {
     color: var(--conteiner-2);
 }
@@ -105,13 +203,33 @@ ul {
 
 /* footer */
 
+footer {
+    font-family: Roboto;
+    font-weight: 400;
+    display: flex;
+}
+
 .footer {
     border: 2px solid var(--conteiner-1);
     background-color: var(--conteiner-1);
+    font-size: 16px;
+}
+
+.footer nav {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts-ul2 {
+    display: flex;
 }
 
 .link2 {
     color: var(--conteiner-3);
+    font-size: 16px;
 }
 
 .link2:hover {

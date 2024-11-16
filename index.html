@@ -5,16 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
-    <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <header class="header">
         <nav class="header-nav">
-            <a href="index.html"><img src="./images/logo.svg" alt="" width="74px" ; height="42px"></a>
+            <a href="index.html"><img src="./images/logo.svg" alt="Beauty Zone" width="74" height="42"></a>
             <ul>
                 <li><a class="link1" href="#aboutus">Про нас</a></li>
                 <li><a class="link1" href="#whywe">Чому ми</a></li>
@@ -49,7 +49,7 @@
                     Наша косметологічна клініка пропонує вам професійні послуги з догляду за шкірою обличчя та тіла.
                 </p>
                 <p>
-                    B <span lang="en">Beauty Zone</span> ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та молодість. З нами краса назавжди!
+                    B <span class="main-section2-p" lang="en">Beauty Zone</span> ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та молодість. З нами краса назавжди!
                 </p>
             </aside>
             <img src="./images/perevtilenn9.jpg" alt="before/after" />
@@ -60,19 +60,19 @@
             <ul>
                 <li>
                     <img src="./images/materials-science.jpg" alt="">
-                    <p>
+                    <p class="main-section3-p">
                         Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5 років
                     </p>
                 </li>
                 <li>
                     <img src="./images/medicinecosmetics.jpg" alt="">
-                    <p>
+                    <p class="main-section3-p">
                         Використовуємо тільки професійне обладнання та косметику, перевірену часом
                     </p>
                 </li>
                 <li>
                     <img src="./images/crown-light.png" alt="">
-                    <p>
+                    <p class="main-section3-p">
                         Наша мета - підкреслити переваги та приховати недоліки, а не переробити
                     </p>
                 </li>
@@ -108,7 +108,7 @@
     </main>
     <footer class="footer">
         <nav>
-            <a href="index.html"><img src="./images/logo.svg" alt="" width="83px" ; height="42px"></a>
+            <a href="index.html"><img src="./images/logo.svg" alt="Beauty Zone" width="83" height="42"></a>
             <ul>
                 <li><a class="link2" href="#aboutus">Про нас</a></li>
                 <li><a class="link2" href="#whywe">Чому ми</a></li>
@@ -116,9 +116,10 @@
                 <li><a class="link2" href="#contacts">Контакти</a></li>
             </ul>
         </nav>
-        <address id="contacts">
-        <ul>
-          <li>
+        <address class="contacts" id="contacts">
+        <div>
+            <ul class="contacts-ul1">
+                <li>
             <a class="link2" href="tel:+380960000007">+ 38 (096) 000 00 07</a>
           </li>
           <li>
@@ -132,19 +133,25 @@
             >
           </li>
         </ul>
-        <ul>
+        <ul class="contacts-ul2">
           <li>
-            <a href="index.html" target="_blank"><img src="./images/logo_phone_footer.svg" alt="" width="42px" ; height="42px"></a>
+            <a href="index.html" target="_blank"><img src="./images/logo_phone_footer.svg" alt="Телефонний виклик" width="42"  height="42"></a>
           </li>
           <li>
-            <a href="index.html" target="_blank"><img src="./images/logo_facebook_footer.svg" width="42px" ; height="42px"></a>
+            <a href="index.html" target="_blank"><img src="./images/logo_facebook_footer.svg" alt="Зв'язатися у facebook" width="42"  height="42"></a>
           </li>
           <li>
-            <a href="index.html" target="_blank"><img src="./images/logo_instagram_footer.svg" width="42px" ; height="42px"></a>
+            <a href="index.html" target="_blank"><img src="./images/logo_instagram_footer.svg" alt="Зв'язатися у instagram" width="42"  height="42"></a>
           </li>
         </ul>
-        <a class="politic" href="index.html" target="_blank">Політика конфіденційності</a>
-        <p>© 2022 Дані захищені</p>
+        </div>
+        <ul class="contacts-ul3">
+            <li><a class="politic" href="index.html" target="_blank">Політика конфіденційності</a></li>
+            <li><p>© 2022 Дані захищені</p></li>
+        </ul>
+
+        
+        
       </address>
     </footer>
 </body>
